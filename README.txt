@@ -12,7 +12,8 @@ The structure of a given DFA/NFA input file:
 #  comment   lines  (skip them)
 #
 Sigma:
-  letter 1 letter 2
+  letter1 
+  letter2
   . . .
 End
 #
@@ -20,8 +21,8 @@ End
 #
 States:
   state1 
-  state 2 
-  state 3, F
+  state2 
+  state3, F
   . . .
   stateK, S
   . . .
@@ -30,7 +31,7 @@ End
 #  comment lines ( skip them )
 #
 Transitions:
-  state X, letter Y, state Z
-  state X, letter Y, state Z
+  stateX, letterY, stateZ
+  stateX, letterY, stateZ
   . . .
 End
