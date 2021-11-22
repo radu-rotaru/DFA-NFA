@@ -9,7 +9,7 @@ Multiple python programs that perform different operations on DFAs and NFAs:
 The structure of a given DFA/NFA input file:
 
 #
-#  comment   lines  ( skip them)
+#  comment   lines  (skip them)
 #
 Sigma:
   letter 1 letter 2
